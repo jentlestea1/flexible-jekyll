@@ -1,0 +1,17 @@
+---
+layout: post
+title: "自我介绍"
+date: 2017-11-16 13:32:20 +0300
+description: 自我介绍# Add post description (optional)
+img:  # Add image post (optional)
+---
+我的自我介绍
+我是一名学生，热爱编程，喜欢运动，欧耶
+
+你们可以查看我的[GitHub][GitHub-link]博客
+通过我的邮箱`jentlestea@ju.edu.cn`可以联系我
+我的知乎账号名是`jentlestea`
+
+[GitHub-link]: https://jentlestea1.github.io
+
+
