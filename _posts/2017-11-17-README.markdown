@@ -2,8 +2,9 @@
 layout: post
 title: "自我介绍"
 date: 2017-11-16 13:32:20 +0300
-description: 自我介绍# Add post description (optional)
-img:  # Add image post (optional)
+description: 自我介绍 # Add post description (optional)
+img: shaobowang.jpg # Add image post (optional)
+tags: [自我介绍]
 ---
 
 我的自我介绍
