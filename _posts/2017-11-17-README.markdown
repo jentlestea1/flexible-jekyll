@@ -3,7 +3,7 @@ layout: post
 title: "自我介绍"
 date: 2017-11-16 13:32:20 +0300
 description: 自我介绍 # Add post description (optional)
-img: shaobowang.jpg # Add image post (optional)
+img: software.jpg # Add image post (optional)
 tags: [自我介绍]
 ---
 
@@ -14,7 +14,9 @@ tags: [自我介绍]
 
 你们可以查看我的[GitHub][GitHub-link]博客
 
-通过我的邮箱`jentlestea@ju.edu.cn`可以联系我
+[GitHub-link]: https://shaobowang.top
+
+通过我的邮箱`jentlestea@zju.edu.cn`可以联系我
 
 我的知乎账号:`jentlestea`
 
@@ -24,6 +26,9 @@ tags: [自我介绍]
 
 ![](../assets/img/my_wechat.jpg)
 
-[GitHub-link]: https://jentlestea1.github.io
+
+友情链接：[好基友的博客][haojiyou-link]
+
+[haojiyou-link]: https://guanfuchen.github.io
 
 
