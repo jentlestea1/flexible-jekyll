@@ -29,6 +29,6 @@ tags: [自我介绍]
 
 友情链接：[好基友的博客][haojiyou-link]
 
-[haojiyou-link]: https://chengguanfu.gitee.io/blog_ws_public
+[haojiyou-link]: http://chenguanfu.gitee.io/blog_ws_public
 
 
