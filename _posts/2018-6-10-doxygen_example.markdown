@@ -5,22 +5,22 @@ date: 2018-06-10 13:32:20 +0300
 description: doxygen 范例
 tags: [doxygen-example]
 ---
-
-> /**
-> *@file        handle_data_package.h
-> *@brief    声明数据包转发规则表结构和各种对表操作的函数
-> *@author       Shaobo Wang
-> *@date     2018-5-21 
-> *@version  A001 
-> *@par Copyright (c):  Shaobo Wang 
-> */
+ ``` c
+ /**
+ *@file        handle_data_package.h
+ *@brief    声明数据包转发规则表结构和各种对表操作的函数
+ *@author       Shaobo Wang
+ *@date     2018-5-21 
+ *@version  A001 
+ *@par Copyright (c):  Shaobo Wang 
+ */
 
 
 #ifndef HANDLE_DATA_PACKAGE_H_
 #define HANDLE_DATA_PACKAGE_H_
 #include "m_type.h"
 ///定义包转发规则表和接口
-``` c
+
  /** 定义包转发规则表的最大数量*/
  #define DATA_TRANS_RULE_FORM_MAX_LEN 1
  #define RT_TRANS_RULE_MAX_LEN 32
@@ -178,7 +178,6 @@ void* get_form_item(byte_8* bus_type,byte_8* bus_lid);
  */ 
 void* get_form_rule_item(byte_8* bus_type,byte_8* bus_lid,byte_8* RT_lid);
 
-//byte_8* get_max_priority_dev_lid(byte_8* bus_type,byte_8* bus_lid,byte_8* RT_lid,uint_32 attr_flag,uint_32* current_priority,uint_32* anchor);
 
 /** 
  * RT转发规则内按优先级递减获取设备逻辑标识符
