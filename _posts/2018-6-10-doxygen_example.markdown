@@ -5,34 +5,36 @@ date: 2018-06-10 13:32:20 +0300
 description: doxygen 范例
 tags: [doxygen-example]
 ---
-/**
-* @file        handle_data_package.h
-* @brief    声明数据包转发规则表结构和各种对表操作的函数
-* @author       Shaobo Wang
-* @date     2018-5-21 
-* @version  A001 
-* @par Copyright (c):  Shaobo Wang 
-*/
+
+> /**
+> *@file        handle_data_package.h
+> *@brief    声明数据包转发规则表结构和各种对表操作的函数
+> *@author       Shaobo Wang
+> *@date     2018-5-21 
+> *@version  A001 
+> *@par Copyright (c):  Shaobo Wang 
+> */
 
 
 #ifndef HANDLE_DATA_PACKAGE_H_
 #define HANDLE_DATA_PACKAGE_H_
 #include "m_type.h"
-//#include "xml_parse.h"
 ///定义包转发规则表和接口
-#define DATA_TRANS_RULE_FORM_MAX_LEN 1
-#define RT_TRANS_RULE_MAX_LEN 32
-#define DEV_TRANS_DATA_INFO_MAX_LEN 32
-#define PRIORITY uint_32
-#define BLOCK_SIZE uint_32
-#define TRANS_DEV_MAX_SIZE 100
-#define SEND_PRIORITY_FLAG 1
-#define SEND_BLOCK_FLAG 2
-#define RECEIVE_PRIORITY_FLAG 3
-#define RECEIVE_BLOCK_FLAG 4
-#define MAX_PRIORITY 1000
-#define LOWEST_PRIORITY -1000
-#define MIN_DEVIATION 2000
+``` c
+ /** 定义包转发规则表的最大数量*/
+ #define DATA_TRANS_RULE_FORM_MAX_LEN 1
+ #define RT_TRANS_RULE_MAX_LEN 32
+ #define DEV_TRANS_DATA_INFO_MAX_LEN 32
+ #define PRIORITY uint_32
+ #define BLOCK_SIZE uint_32
+ #define TRANS_DEV_MAX_SIZE 100
+ #define SEND_PRIORITY_FLAG 1
+ #define SEND_BLOCK_FLAG 2
+ #define RECEIVE_PRIORITY_FLAG 3
+ #define RECEIVE_BLOCK_FLAG 4
+ #define MAX_PRIORITY 1000
+ #define LOWEST_PRIORITY -1000
+ #define MIN_DEVIATION 2000
 
 /** 设备转发信息结构 */
 typedef struct dev_trans_data_info{
@@ -289,3 +291,4 @@ byte_8* get_irdirect_bus_type(uint_32 irdirect_pos);
  */ 
 byte_8* get_irdirect_bus_lid(uint_32 irdirect_pos);
 #endif
+```
