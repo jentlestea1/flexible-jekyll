@@ -1,3 +1,10 @@
+---
+layout: post
+title: "如何高效的阅读一篇论文"
+date: 2018-06-10 13:32:20 +0300
+description: 如何高效的阅读一篇论文
+tags: [readpaper]
+---
 # <center>如何高效的阅读一篇论文
 ---
 # <center>我们的习惯
